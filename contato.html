@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="img/iconeGandalf.png">
+    <script src="script.js"></script>
+    <title>Contato</title>
+</head>
+<body>
+    <br>
+    <header>
+        <div id="nav">
+            <a class="link" href="index.html">Home</a>
+            <a class="link" href="Sobre.html">Sobre</a>
+            <a class="link" href="galeria.html">Galeria</a>
+        </div>
+    </header>
+    <br>
+    <div>
+        <img src="img/portoscinzentos.jpg" alt="portoscinzentos" id="imgportoscinzentos">
+    </div>
+    <br>
+    <div id="textocontatos" class="col-md-12">
+        <h4 id="tituloSobre">Você quer entrar em contato com Gandalf?</h4>
+        <p>
+            Após a derrota de Sauron, Gandalf, juntamente com Aragorn e os outros líderes das Terras do Oeste, reconstruíram as nações e 
+            trabalharam para manter a paz na Terra-média.
+            <br>
+            No entanto, Gandalf sabia que seu tempo nas terras mortais estava chegando ao fim. Ele havia sido enviado para a Terra-média 
+            como um dos Maiar, seres divinos que ajudavam na criação e manutenção do mundo. Seu trabalho na Terra-média estava completo e ele 
+            sabia que era hora de retornar aos Portos Cinzentos, onde os navios élficos partiam para as Terras Imortais.
+            <br>
+            Gandalf se despediu de seus amigos e aliados na Terra-média e partiu em uma jornada solitária rumo ao encontro de Tom Bombadil, no vale
+            de Withywindle, onde permaneceu um período até ir aos portos cinzentos, onde se despediria de vez da Terra-média. 
+            Lá, ele encontrou o navio que o levaria para as Terras Imortais. Antes de embarcar, no entanto, ele se voltou para olhar uma 
+            última vez para seus amigos que ficariam e para a Terra-média, onde ele havia passado tanto tempo e feito tantas coisas.
+            <br>
+            Sorrindo então, Gandalf embarcou no navio e partiu para as Terras Imortais. Lá, ele seria 
+            reunido com seus irmãos Maiar e com os Valar, os poderosos espíritos que governavam o mundo. Gandalf havia cumprido sua missão 
+            na Terra-média e agora se juntaria aos seres divinos para continuar seu trabalho em outro lugar.
+            <br><br>
+        </p>
+        
+
+    </div>
+    <h5 style="text-align: center;">Envie sua mensagem, vamos envia-lá junto com o próximo embarque as Terras Imortais, lembre-se, não tente usar a Palantír para se
+        comunicar.
+    </h5>
+    <br><br>
+    <form>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputName">Nome</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Digite seu nome">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Digite seu email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" requiredw>
+          </div>
+        </div>
+        <div class="form-group col-md-12">
+          <label for="inputComment">Escreva sua carta</label>
+          <textarea class="form-control" id="inputComment" rows="5" placeholder="Digite sua carta"></textarea>
+        </div>
+        <div class="form-group col-md-12">
+          <button type="submit" class="btn btn-primary" onclick="window.location.href='envio.html'">Enviar</button>
+        </div>
+      </form>
+      
+    
+    
+
+</body>
+<footer>
+  <button id="btn-topo"><i class=""></i></button>
+</footer>
+</html>
