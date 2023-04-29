@@ -68,7 +68,7 @@ img{
 #textoEscondido{
     color: black;
     text-align: center;
-    transition: 0.7s;
+    transition: 0.5s;
     cursor: default;
 }
 #textoEscondido:hover{
